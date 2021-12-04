@@ -32,7 +32,7 @@ function App() {
               <a className="nav-link active" aria-current="page" href="#home">Home</a>
             </li>
             <li className="nav-item mx-2">
-              <a className="nav-link" href="#about">About</a>
+              <a className="nav-link" href="#about">Skills</a>
             </li>
             <li className="nav-item mx-2">
               <a className="nav-link" href="#about">Projects</a>
