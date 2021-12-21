@@ -5,6 +5,7 @@ import '../node_modules/font-awesome/css/font-awesome.min.css';
 import AOS from 'aos'
 import 'aos/dist/aos.css';
 import About from "./Components/about"
+import Projects from './Components/projects'
 function App() {
 
   React.useEffect(() => {
@@ -19,7 +20,7 @@ function App() {
   const Nav = () => (
     <nav className="navbar navbar-expand-lg navbar-dark ">
       <div className="container-fluid">
-        <a className="navbar-brand header-font logo-hover" href="#">
+        <a className="navbar-brand header-font logo-hover" href="/">
           Harsh Joshi
         </a>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,11 +36,7 @@ function App() {
               <a className="nav-link" href="#about">Skills</a>
             </li>
             <li className="nav-item mx-2">
-              <a className="nav-link" href="#about">Projects</a>
-            </li>
-
-            <li className="nav-item mx-2">
-              <a className="nav-link " href="#contact">Contact</a>
+              <a className="nav-link" href="#projects">Projects</a>
             </li>
           </ul>
 
@@ -55,6 +52,7 @@ function App() {
       <div className="container h-100">
         <Home />
         <About />
+        <Projects/>
       </div>
     </div>
   );

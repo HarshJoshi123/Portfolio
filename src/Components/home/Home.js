@@ -24,16 +24,16 @@ function Home() {
                             </h3>
                         </div>
                         <div className="home-buttons ml-2 d-flex justify-content-center">
-                            <a href="https://drive.google.com/file/d/1CA_HVfw_gkp3kP9GHL-gwoq21iS0svFT/view?usp=sharing" className="btn primary-btn" target="_blank">
+                            <a href="https://drive.google.com/file/d/1CA_HVfw_gkp3kP9GHL-gwoq21iS0svFT/view?usp=sharing" className="btn primary-btn" rel="noreferrer" target="_blank">
                                 <button className="btn text-white resume-btn blue ">Get Resume </button>
                             </a>
                         </div>
                         <div className="col d-flex d-flex justify-content-center">
-                            <a className="mx-4 " href="https://www.linkedin.com/in/harsh-joshi-a87454198/" target="_blank">
+                            <a className="mx-4 " href="https://www.linkedin.com/in/harsh-joshi-a87454198/" target="_blank" rel="noreferrer">
                                 <i className="fa fa-linkedin"></i>
                             </a>
 
-                            <a href="https://github.com/HarshJoshi123" target="_blank">
+                            <a href="https://github.com/HarshJoshi123" target="_blank" rel="noreferrer">
                                 <i className="fa fa-github"></i>
                             </a>
 

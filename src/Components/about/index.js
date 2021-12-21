@@ -1,43 +1,131 @@
 import React from "react"
 import './about.css'
+import Grid from '@mui/material/Grid'
+import Stack from '@mui/material/Stack';
+import Stepper from '@mui/material/Stepper';
+import Step from '@mui/material/Step';
+import StepLabel from '@mui/material/StepLabel';
+import StepContent from '@mui/material/StepContent';
+import ChipSet from './chip.js'
+import JavascriptIcon from '@mui/icons-material/Javascript';
+import StorageIcon from '@mui/icons-material/Storage';
+import Avatar from '@mui/material/Avatar';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import HtmlIcon from '@mui/icons-material/Html';
+import CssIcon from '@mui/icons-material/Css';
+import CloudCircleIcon from '@mui/icons-material/CloudCircle';
+import LocalFireDepartmentIcon from '@mui/icons-material/LocalFireDepartment';
+import HandymanIcon from '@mui/icons-material/Handyman';
+import { LocalPostOfficeRounded } from "@mui/icons-material";
 const About = () => {
 
     return (
         <div id="about" className="text-white container  d-flex justify-content-center mt-5 flex-column ">
-            <div data-aos="fade-right" className=" h1 text-center my-4">Skills </div>
-            <div >
-                
-                <div className="container flex-wrap w-100 h-50  ">
-                    <div className="row w-100 g-2 justify-content-center">
-                        <div className="about-card col-12 col-md-5 col-lg-3 m-2 ">
-                            <span className="my-5"><img src='https://cdn.worldvectorlogo.com/logos/html-1.svg' className='about-img' style={{ backgroundSize: "inherit" }} /> </span>
-                            <span className="my-2" >  HTML & CSS </span>
-                        </div>
-                        <div className="about-card col-12 col-md-5 col-lg-3 col m-2">
-                            <span className="my-5"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGaDwMXCAs7jDTjs4SqVzXV8SxPXGuwDXRZQ&usqp=CAU" className='about-img' style={{ backgroundSize: "inherit" }} /> </span>
-                            <span className="my-2">Javascript</span>
-                        </div>
-                        <div className="about-card col-12 col-md-5 col-lg-3 m-2">
-                            <span className="my-5"><img src="data:image/png;base64,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" className='about-img' style={{ backgroundSize: "inherit" }} /> </span>
-                            <span className="my-2">React.js</span>
-                        </div>
-                        </div>
-                        <div className="row g-2 w-100 flex-wrap justify-content-center">
-                        <div className="about-card col-12 col-md-5 col-lg-3  m-2">
-                            <span className="my-5"><img src="https://res.cloudinary.com/practicaldev/image/fetch/s--4BjMqsdN--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/4anecy5mdl4pho8w7519.jpg" className='about-img' style={{ backgroundSize: "inherit" }} /> </span>
-                            <span className="my-2">Node.js&Express.JS </span> 
-                            </div>
-                        <div className="about-card col-12 col-md-5 col-lg-3  m-2">
-                            <span className="my-5"><img src='https://webimages.mongodb.com/_com_assets/cms/kuzt9r42or1fxvlq2-Meta_Generic.png' className='about-img' style={{ backgroundSize: "inherit" }} /> </span>
-                            <span className="my-2">MongoDB </span> 
-                            </div>
-                        <div className="about-card col-12 col-md-5 col-lg-3  m-2" >
-                            <span className="my-5"><img src='https://thumbs.dreamstime.com/b/sql-database-icon-logo-design-ui-ux-app-gold-inscription-dark-black-background-96842123.jpg' className='about-img' style={{ backgroundSize: "inherit" }} /> </span>
-                           <span className="my-2"> SQL </span>
-                        </div>
-                     
-                    </div>
-                </div>
+            <div data-aos="fade-right" className=" h1 text-center my-4 mt-2">Skills </div>
+            <div>
+
+                <Stepper data-aos="fade-left" orientation="vertical" >
+
+                    <Step active={true} key={1}>
+                        <StepLabel >
+                            <h3 style={{ color: 'white' }}>Programming Languages</h3>
+                        </StepLabel>
+                        <StepContent>
+                            <Grid container >
+                                <Stack direction="row" spacing={1}>
+                                    <ChipSet avatar={<Avatar>C</Avatar>}  title={'C++'} />
+                                    <ChipSet avatar={<Avatar>J</Avatar>} title={'Java'} />
+                                    <ChipSet avatar={<Avatar>C</Avatar>} title={'C'} />
+                                    <ChipSet avatar={<Avatar>S</Avatar>} title={'Solidity'} />
+                                    <ChipSet comp={<JavascriptIcon/>} title={'Javascript'} />
+                                </Stack>
+
+                            </Grid>
+
+                        </StepContent>
+                    </Step>
+                    <Step key={2} active={true}>
+                        <StepLabel >
+                            <h3 style={{ color: 'white' }}>Web FrontEnd</h3>
+                        </StepLabel>
+                        <StepContent>
+                            <Grid container>
+                                <Stack direction="row" spacing={1}>
+                                    <ChipSet comp={<HtmlIcon/>} title={'HTML'} />
+                                    <ChipSet comp={<CssIcon/>} title={'CSS'} />
+                                    <ChipSet comp={<JavascriptIcon/>} title={'React.js'} />
+                                    <ChipSet comp={<JavascriptIcon/>} title={'Redux'} />
+                                    <ChipSet comp={<CssIcon/>} title={'MaterialUI'} />
+                                    <ChipSet comp={<CssIcon/>} title={'Bootstrap'} />
+                                    <ChipSet comp={<CssIcon/>} title={'MaterializeCSS'} />
+                                </Stack>
+
+                            </Grid>
+                        </StepContent>
+                    </Step>
+                    <Step key={3} active={true}>
+                        <StepLabel >
+                            <h3 style={{ color: 'white' }}>Web Back End</h3>
+                        </StepLabel>
+                        <StepContent>
+                            <Grid container>
+                                <Stack direction="row" spacing={1}>
+                                    <ChipSet comp={<JavascriptIcon/>} title={'Node.js'} />
+                                    <ChipSet comp={<JavascriptIcon/>} title={'Express.js'} />
+                                </Stack>
+                            </Grid>
+                        </StepContent>
+                    </Step>
+                    <Step key={3} active={true}>
+                        <StepLabel >
+                            <h3 style={{ color: 'white' }}>Databases</h3>
+                        </StepLabel>
+                        <StepContent>
+                            <Grid container>
+                                <Stack direction="row" spacing={1}>
+                                    <ChipSet comp={<StorageIcon/>} title={'MongoDB'} />
+                                    <ChipSet comp={<StorageIcon/>} title={'SQL'} />
+                                    <ChipSet comp={<LocalFireDepartmentIcon/>} title={'FireStore'} />
+                                </Stack>
+
+                            </Grid>
+                        </StepContent>
+                    </Step >
+
+                    <Step key={3} active={true}>
+                        <StepLabel >
+                            <h3 style={{ color: 'white' }}>Cloud Platforms</h3>
+
+                        </StepLabel>
+                        <StepContent>
+                            <Grid container>
+                                <Stack direction="row" spacing={1}>
+                                    <ChipSet comp={<CloudCircleIcon/>} title={'Heroku'} />
+                                    <ChipSet title={'Firebase'} comp={<CloudCircleIcon/>} />
+                                    <ChipSet title={'Netlify'}  comp={<CloudCircleIcon/>} />
+                                </Stack>
+                            </Grid>
+                        </StepContent>
+                    </Step>
+                    <Step key={3} active={true}>
+                        <StepLabel >
+                            <h3 style={{ color: 'white' }}>Tools</h3>
+                        </StepLabel>
+                        <StepContent className="ml-5">
+                            <Grid className="ml-5" container justify="center">
+
+                                <Stack direction="row" spacing={1}>
+                                    <ChipSet comp={<HandymanIcon/>} title={'VSCode'} />
+                                    <ChipSet comp={<HandymanIcon/>} title={'MongoDB Compass'} />
+                                    <ChipSet comp={<GitHubIcon/>} title={'Git/Github'} />
+                                    <ChipSet comp={<LocalPostOfficeRounded/>} title={'Postman'} />
+                                    <ChipSet comp={<HandymanIcon/>} title={'JIRA'} />
+                                    <ChipSet comp={<LocalFireDepartmentIcon/>} title={'Firebase'} />
+                                </Stack>
+                            </Grid>
+                        </StepContent>
+                    </Step>
+                </Stepper>
             </div>
         </div>
     )
