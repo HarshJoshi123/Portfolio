@@ -6,6 +6,7 @@ import AOS from 'aos'
 import 'aos/dist/aos.css';
 import About from "./Components/about"
 import Projects from './Components/projects'
+import Experience from './Components/experience'
 function App() {
 
   React.useEffect(() => {
@@ -33,6 +34,9 @@ function App() {
               <a className="nav-link active" aria-current="page" href="#home">Home</a>
             </li>
             <li className="nav-item mx-2">
+              <a className="nav-link" href="#experience">Experience</a>
+            </li>
+            <li className="nav-item mx-2">
               <a className="nav-link" href="#about">Skills</a>
             </li>
             <li className="nav-item mx-2">
@@ -51,6 +55,7 @@ function App() {
       <Nav />
       <div className="container h-100">
         <Home />
+        <Experience/>
         <About />
         <Projects/>
       </div>

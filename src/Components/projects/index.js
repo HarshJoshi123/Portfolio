@@ -20,7 +20,7 @@ const Projects = () => {
     return (
 
         <div id="projects" className="text-white container  d-flex justify-content-center flex-column " style={{marginTop:'200px'}}>
-            <div className="h1 text-center mt-2"> Projects </div>
+            <div data-aos="fade-up"  className="h1 text-center mt-2"> Projects </div>
          
                 <Grid data-aos="fade-up" container >
                     <Card sx={{ maxWidth: 345 }} style={{backgroundColor:'transparent',color:'white !important'}} onClick={()=>handleClick('https://github.com/HarshJoshi123/ElVote')} className="m-4" >
@@ -112,7 +112,7 @@ Used Technologies-HTML ,CSS,React JS,MobX,Firebase
                                 height="140"
                                 image={Food}
                                 //image="https://previews.123rf.com/images/bsd555/bsd5552011/bsd555201100297/158285890-online-voting-rgb-color-icon-electronic-polls-election-system-e-voting-balloting-participation-in-de.jpg"
-                                alt="green iguana"
+                                alt=""
                             />
                             <CardContent>
                                 <Typography gutterBottom variant="h5" component="div" className=" text-white text-center">
@@ -132,7 +132,7 @@ Used Technologies-HTML ,CSS,React JS,MobX,Firebase
                                 height="140"
                                 image={Cov}
                                 //image="https://previews.123rf.com/images/bsd555/bsd5552011/bsd555201100297/158285890-online-voting-rgb-color-icon-electronic-polls-election-system-e-voting-balloting-participation-in-de.jpg"
-                                alt="green iguana"
+                                alt=""
                             />
                             <CardContent>
                                 <Typography gutterBottom variant="h5" component="div" className=" text-white text-center">

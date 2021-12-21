@@ -6,7 +6,7 @@ import Stepper from '@mui/material/Stepper';
 import Step from '@mui/material/Step';
 import StepLabel from '@mui/material/StepLabel';
 import StepContent from '@mui/material/StepContent';
-import ChipSet from './chip.js'
+import ChipSet from '../common/chip.js'
 import JavascriptIcon from '@mui/icons-material/Javascript';
 import StorageIcon from '@mui/icons-material/Storage';
 import Avatar from '@mui/material/Avatar';
@@ -22,12 +22,12 @@ const About = () => {
     return (
         <div id="about" className="text-white container  d-flex justify-content-center mt-5 flex-column ">
             <div data-aos="fade-right" className=" h1 text-center my-4 mt-2">Skills </div>
-            <div>
+            <div  >
 
-                <Stepper data-aos="fade-left" orientation="vertical" >
+                <Stepper data-aos="fade-left" orientation="vertical"   >
 
                     <Step active={true} key={1}>
-                        <StepLabel >
+                        <StepLabel  >
                             <h3 style={{ color: 'white' }}>Programming Languages</h3>
                         </StepLabel>
                         <StepContent>
