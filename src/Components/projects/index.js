@@ -8,6 +8,8 @@ import Soc from './Soc.png'
 import GCA from './GCA2.png'
 import Rec from './GCA.png'
 import ElVote from './Elvote.png'
+import Food from './Food.png'
+import Cov from './Cov.png'
 import {  CardActionArea } from '@mui/material';
 const Projects = () => {
 
@@ -99,6 +101,46 @@ Used Technologies-HTML ,CSS,React JS,MobX,Firebase
                                 <Typography variant="body2" color="white">
                                 I worked on UI of this project with react and redux.This will be used for providing details of candidate,who is job applicant, which will be validated by mentor.
                                 You can checkout this website using these credentials (Email:abc@gmail.com ,pass:abcd)
+                                </Typography>
+                            </CardContent>
+                        </CardActionArea>
+                        
+                    </Card><Card sx={{ maxWidth: 345 }} style={{backgroundColor:'transparent',color:'white !important'}} onClick={()=>handleClick('https://foodapp1890.firebaseapp.com')} className="m-4">
+                        <CardActionArea>
+                            <CardMedia
+                                component="img"
+                                height="140"
+                                image={Food}
+                                //image="https://previews.123rf.com/images/bsd555/bsd5552011/bsd555201100297/158285890-online-voting-rgb-color-icon-electronic-polls-election-system-e-voting-balloting-participation-in-de.jpg"
+                                alt="green iguana"
+                            />
+                            <CardContent>
+                                <Typography gutterBottom variant="h5" component="div" className=" text-white text-center">
+                                    Food Delivery Web Application 
+                                   
+                                </Typography>
+                                <Typography variant="body2" color="white">
+                                UI for food ordering website made using react js and animate.css
+                                </Typography>
+                            </CardContent>
+                        </CardActionArea>
+                        
+                    </Card><Card sx={{ maxWidth: 345 }} style={{backgroundColor:'transparent',color:'white !important'}} onClick={()=>handleClick('https://leafletproj1890.firebaseapp.com/')} className="m-4">
+                        <CardActionArea>
+                            <CardMedia
+                                component="img"
+                                height="140"
+                                image={Cov}
+                                //image="https://previews.123rf.com/images/bsd555/bsd5552011/bsd555201100297/158285890-online-voting-rgb-color-icon-electronic-polls-election-system-e-voting-balloting-participation-in-de.jpg"
+                                alt="green iguana"
+                            />
+                            <CardContent>
+                                <Typography gutterBottom variant="h5" component="div" className=" text-white text-center">
+                                    Covid Tracker Web Application      
+                                </Typography>
+                                <Typography variant="body2" color="white">
+                                Short Project That tracks Covid-19 cases around the world.
+Made Using React Js and Leaflet Js.
                                 </Typography>
                             </CardContent>
                         </CardActionArea>
