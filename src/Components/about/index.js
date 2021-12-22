@@ -21,10 +21,10 @@ const About = () => {
 
     return (
         <div id="about" className="text-white container  d-flex justify-content-center mt-5 flex-column ">
-            <div data-aos="fade-right" className=" h1 text-center my-4 mt-2">Skills </div>
+            <div  className=" h1 text-center my-4 mt-2">Skills </div>
             <div  >
 
-                <Stepper data-aos="fade-left" orientation="vertical"   >
+                <Stepper  orientation="vertical"   >
 
                     <Step active={true} key={1}>
                         <StepLabel  >
@@ -115,12 +115,12 @@ const About = () => {
                             <Grid className="ml-5" container justify="center">
 
                                 <Stack direction="row" spacing={1}>
-                                    <ChipSet comp={<HandymanIcon/>} title={'VSCode'} />
-                                    <ChipSet comp={<HandymanIcon/>} title={'MongoDB Compass'} />
-                                    <ChipSet comp={<GitHubIcon/>} title={'Git/Github'} />
-                                    <ChipSet comp={<LocalPostOfficeRounded/>} title={'Postman'} />
-                                    <ChipSet comp={<HandymanIcon/>} title={'JIRA'} />
-                                    <ChipSet comp={<LocalFireDepartmentIcon/>} title={'Firebase'} />
+                                    <ChipSet comp={<HandymanIcon/>} title={'VSCode'} tool={true} />
+                                    <ChipSet comp={<HandymanIcon/>} title={'MongoDB Compass'} tool={true} />
+                                    <ChipSet comp={<GitHubIcon/>} title={'Git/Github'} tool={true} />
+                                    <ChipSet comp={<LocalPostOfficeRounded/>} title={'Postman'} tool={true} />
+                                    <ChipSet comp={<HandymanIcon/>} title={'JIRA'} tool={true} />
+                                    <ChipSet comp={<LocalFireDepartmentIcon/>} title={'Firebase'} tool={true} />
                                 </Stack>
                             </Grid>
                         </StepContent>

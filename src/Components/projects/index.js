@@ -20,10 +20,10 @@ const Projects = () => {
     return (
 
         <div id="projects" className="text-white container  d-flex justify-content-center flex-column " style={{marginTop:'200px'}}>
-            <div data-aos="fade-up"  className="h1 text-center mt-2"> Projects </div>
+            <div   className="h1 text-center mt-2"> Projects </div>
          
-                <Grid data-aos="fade-up" container >
-                    <Card sx={{ maxWidth: 345 }} style={{backgroundColor:'transparent',color:'white !important'}} onClick={()=>handleClick('https://github.com/HarshJoshi123/ElVote')} className="m-4" >
+                <Grid  container >
+                    <Card data-aos="flip-right"  sx={{ maxWidth: 345 }} style={{backgroundColor:'transparent',color:'white !important'}} onClick={()=>handleClick('https://github.com/HarshJoshi123/ElVote')} className="m-4" >
                         <CardActionArea>
                             <CardMedia
                                 component="img"
@@ -42,7 +42,7 @@ const Projects = () => {
                         </CardActionArea>
                         
                     </Card>
-                    <Card sx={{ maxWidth: 345 }} style={{backgroundColor:'transparent',color:'white !important'}} onClick={()=>handleClick('https://mysocialmediaapp0026.netlify.app/')} className="m-4">
+                    <Card data-aos="flip-right" sx={{ maxWidth: 345 }} style={{backgroundColor:'transparent',color:'white !important'}} onClick={()=>handleClick('https://mysocialmediaapp0026.netlify.app/')} className="m-4">
                         <CardActionArea>
                             <CardMedia
                                 component="img"
@@ -63,7 +63,7 @@ User can post photos,text and follow other users.
                         </CardActionArea>
                         
                     </Card>
-                    <Card sx={{ maxWidth: 345 }} style={{backgroundColor:'transparent',color:'white !important'}} onClick={()=>handleClick('http://chatting-app-c338a.firebaseapp.com/')} className="m-4">
+                    <Card data-aos="flip-right" sx={{ maxWidth: 345 }} style={{backgroundColor:'transparent',color:'white !important'}} onClick={()=>handleClick('http://chatting-app-c338a.firebaseapp.com/')} className="m-4">
                         <CardActionArea>
                             <CardMedia
                                 component="img"
@@ -84,7 +84,7 @@ Used Technologies-HTML ,CSS,React JS,MobX,Firebase
                         </CardActionArea>
                         
                     </Card>
-                    <Card sx={{ maxWidth: 345 }} style={{backgroundColor:'transparent',color:'white !important'}} onClick={()=>handleClick('https://profiling-tool123.web.app/')} className="m-4">
+                    <Card data-aos="flip-left" sx={{ maxWidth: 345 }} style={{backgroundColor:'transparent',color:'white !important'}} onClick={()=>handleClick('https://profiling-tool123.web.app/')} className="m-4">
                         <CardActionArea>
                             <CardMedia
                                 component="img"
@@ -105,7 +105,8 @@ Used Technologies-HTML ,CSS,React JS,MobX,Firebase
                             </CardContent>
                         </CardActionArea>
                         
-                    </Card><Card sx={{ maxWidth: 345 }} style={{backgroundColor:'transparent',color:'white !important'}} onClick={()=>handleClick('https://foodapp1890.firebaseapp.com')} className="m-4">
+                    </Card>
+                    <Card data-aos="flip-left" sx={{ maxWidth: 345 }} style={{backgroundColor:'transparent',color:'white !important'}} onClick={()=>handleClick('https://foodapp1890.firebaseapp.com')} className="m-4">
                         <CardActionArea>
                             <CardMedia
                                 component="img"
@@ -125,7 +126,8 @@ Used Technologies-HTML ,CSS,React JS,MobX,Firebase
                             </CardContent>
                         </CardActionArea>
                         
-                    </Card><Card sx={{ maxWidth: 345 }} style={{backgroundColor:'transparent',color:'white !important'}} onClick={()=>handleClick('https://leafletproj1890.firebaseapp.com/')} className="m-4">
+                    </Card>
+                    <Card data-aos="flip-left" sx={{ maxWidth: 345 }} style={{backgroundColor:'transparent',color:'white !important'}} onClick={()=>handleClick('https://leafletproj1890.firebaseapp.com/')} className="m-4">
                         <CardActionArea>
                             <CardMedia
                                 component="img"

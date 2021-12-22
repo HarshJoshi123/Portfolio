@@ -14,7 +14,7 @@ const Experience = () => {
             <div data-aos="fade-right" className=" h1 text-center my-4 mt-2">EXPERIENCE </div>
             <div  >
 
-                <Stepper data-aos="fade-left" orientation="vertical"   >
+                <Stepper data-aos="fade-right" orientation="vertical"   >
 
                     <Step active={true} key={1}>
                         <StepLabel  >
