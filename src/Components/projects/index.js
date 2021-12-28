@@ -57,7 +57,7 @@ const Projects = () => {
                                 YourCornerShop
                             </Typography>
                             <Typography variant="body2" color="white">
-                                Created an Ecommerce webapp using MERN Stack and Redux where user can safely login and buy and sell products. Implemented the payment component using Stripe.
+                                Created an Ecommerce webapp for clothes using MERN Stack and Redux where user can safely login and buy and sell products. Implemented the payment component using Stripe.
                             </Typography>
                         </CardContent>
                     </CardActionArea>
