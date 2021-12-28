@@ -32,7 +32,7 @@ const About = () => {
                         </StepLabel>
                         <StepContent>
                             <Grid container >
-                                <Stack direction="row" spacing={1}>
+                                <Stack direction="row" style={{flexWrap:'wrap'}} spacing={1}>
                                     <ChipSet avatar={<Avatar>C</Avatar>}  title={'C++'} />
                                     <ChipSet avatar={<Avatar>J</Avatar>} title={'Java'} />
                                     <ChipSet avatar={<Avatar>C</Avatar>} title={'C'} />
@@ -50,7 +50,7 @@ const About = () => {
                         </StepLabel>
                         <StepContent>
                             <Grid container>
-                                <Stack direction="row" spacing={1}>
+                                <Stack direction="row" style={{flexWrap:'wrap'}} spacing={1}>
                                     <ChipSet comp={<HtmlIcon/>} title={'HTML'} />
                                     <ChipSet comp={<CssIcon/>} title={'CSS'} />
                                     <ChipSet comp={<JavascriptIcon/>} title={'React.js'} />
@@ -82,7 +82,7 @@ const About = () => {
                         </StepLabel>
                         <StepContent>
                             <Grid container>
-                                <Stack direction="row" spacing={1}>
+                                <Stack  direction="row" spacing={1}>
                                     <ChipSet comp={<StorageIcon/>} title={'MongoDB'} />
                                     <ChipSet comp={<StorageIcon/>} title={'SQL'} />
                                     <ChipSet comp={<LocalFireDepartmentIcon/>} title={'FireStore'} />
@@ -114,7 +114,7 @@ const About = () => {
                         <StepContent className="ml-5">
                             <Grid className="ml-5" container justify="center">
 
-                                <Stack direction="row" spacing={1}>
+                                <Stack style={{flexWrap:'wrap'}} direction="row" spacing={1}>
                                     <ChipSet comp={<HandymanIcon/>} title={'VSCode'} tool={true} />
                                     <ChipSet comp={<HandymanIcon/>} title={'MongoDB Compass'} tool={true} />
                                     <ChipSet comp={<GitHubIcon/>} title={'Git/Github'} tool={true} />
