@@ -18,7 +18,7 @@ const Experience = () => {
 
                     <Step active={true} key={1}>
                         <StepLabel  >
-                            <div style={{ color: 'white' }}><h3>Software Developer  </h3><span style={{marginLeft:'20px'}}>Antares Tech</span></div>
+                            <div style={{ color: 'white' }}><h3>Software Developer  </h3><span style={{marginLeft:'20px'}}>Antares Tech ( July 2021 - Present )</span></div>
                         </StepLabel>
                         <StepContent>
                             <Grid container >
@@ -63,7 +63,7 @@ const Experience = () => {
                     </Step>
                     <Step key={2} active={true}>
                         <StepLabel >
-                            <div style={{ color: 'white' }}><h3>Web Developer Intern </h3> <span style={{marginLeft:'20px'}}>Namasys Consultants LLP</span></div>
+                            <div style={{ color: 'white' }}><h3>Web Developer Intern </h3> <span style={{marginLeft:'20px'}}>Namasys Consultants ( Mar 2021 - May 2021 )</span></div>
                         </StepLabel>
                         <StepContent>
                             <Grid container>
@@ -102,7 +102,7 @@ const Experience = () => {
                     </Step>
                     <Step key={3} active={true}>
                         <StepLabel >
-                            <div style={{ color: 'white' }}><h3>Web Developer Intern </h3><span style={{marginLeft:'20px'}}>Triceria Solutions</span></div>
+                            <div style={{ color: 'white' }}><h3>Web Developer Intern </h3><span style={{marginLeft:'20px'}}>Triceria Solutions ( Apr 2020 - Jun 2020 )</span></div>
                         </StepLabel>
                         <StepContent>
                             <Grid container>
