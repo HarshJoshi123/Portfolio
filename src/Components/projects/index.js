@@ -105,7 +105,7 @@ const Projects = () => {
                         />
                         <CardContent>
                             <Typography gutterBottom variant="h5" sx={{height:{md:'65px'}}} component="div" className=" text-white text-center">
-                                Group Chatting Web Application
+                                CHATFEST
                             </Typography>
                             <Typography variant="body2" style={{height:'150px'}} color="white">
                                 Created a webapp where user can login safely using Gmail and can create groups and add members and can send multimedia to other members.
