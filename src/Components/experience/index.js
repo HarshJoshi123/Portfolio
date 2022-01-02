@@ -6,7 +6,7 @@ import Stepper from '@mui/material/Stepper';
 import Step from '@mui/material/Step';
 import StepLabel from '@mui/material/StepLabel';
 import StepContent from '@mui/material/StepContent';
-import {ListItem,List,ListItemText} from '@mui/material'
+import { ListItem, List, ListItemText } from '@mui/material'
 const Experience = () => {
 
     return (
@@ -23,36 +23,38 @@ const Experience = () => {
                         <StepContent>
                             <Grid container >
                                 <List >
-                                        <ListItem
-                                            //className={classes.listItem}
-                                            //key={id}
-                                            //button
-                                            dense
-                                            role={undefined}
-                                            //onClick={() => this.onChecked(id)}
-                                        >
-                                            <ListItemText primary={<span style={{fontSize:'20px'}}>1.) Developed full stack web applications which allows real-time communication and storage.</span>} />
-                                        </ListItem>
-                                        <ListItem
-                                            //className={classes.listItem}
-                                            //key={id}
-                                            //button
-                                            dense
-                                            role={undefined}
-                                            //onClick={() => this.onChecked(id)}
-                                        >
-                                            <ListItemText primary={<span style={{fontSize:'20px'}}>2.) Designed and built features for webapp's front-end using React.js and MaterialUI. </span>} />
-                                        </ListItem>
-                                        <ListItem
-                                            //className={classes.listItem}
-                                            //key={id}
-                                            //button
-                                            dense
-                                            role={undefined}
-                                            //onClick={() => this.onChecked(id)}
-                                        >
-                                            <ListItemText primary={<span style={{fontSize:'20px'}}>3.) Built microservice's using Node.js,MongoDB and NATS. </span>} />
-                                        </ListItem>
+                                    <ListItem
+                                        //className={classes.listItem}
+                                        //key={id}
+                                        //button
+                                        dense
+                                        role={undefined}
+                                    //onClick={() => this.onChecked(id)}
+                                    >
+                                        <ListItemText primary={<span style={{ fontSize: '20px' }}>1.) End to End development of MERN stack projects called  BOSS(Business
+                                            Objective Scoring System) which generates agricultural reports based on given factors and a podcast application which hosts 75000 podcasts till date.
+                                        </span>} />
+                                    </ListItem>
+                                    <ListItem
+                                        //className={classes.listItem}
+                                        //key={id}
+                                        //button
+                                        dense
+                                        role={undefined}
+                                    //onClick={() => this.onChecked(id)}
+                                    >
+                                        <ListItemText primary={<span style={{ fontSize: '20px' }}>2.) Resolved several bugs in these applications making them failure proof. </span>} />
+                                    </ListItem>
+                                    <ListItem
+                                        //className={classes.listItem}
+                                        //key={id}
+                                        //button
+                                        dense
+                                        role={undefined}
+                                    //onClick={() => this.onChecked(id)}
+                                    >
+                                        <ListItemText primary={<span style={{ fontSize: '20px' }}>3.) Improvement in the speed of products by 30% by optimizing the code </span>} />
+                                    </ListItem>
                                 </List>
 
                             </Grid>
@@ -65,36 +67,36 @@ const Experience = () => {
                         </StepLabel>
                         <StepContent>
                             <Grid container>
-                            <List >
-                                        <ListItem
-                                             dense
-                                            role={undefined}
-                                           
-                                        >
-                                            <ListItemText  primary={<span style={{fontSize:'20px'}}>1.) Worked on real-time management information systems for leaders and managers as React.js Developer. </span>} />
-                                        </ListItem>
-                                        <ListItem
-                                            //className={classes.listItem}
-                                            //key={id}
-                                            //button
-                                            dense
-                                            role={undefined}
-                                            //onClick={() => this.onChecked(id)}
-                                        >
-                                            <ListItemText  primary={<span style={{fontSize:'20px'}}>2.) Integrated API's with front-end and redux. </span>} />
-                                        </ListItem>
-                                        <ListItem
-                                            //className={classes.listItem}
-                                            //key={id}
-                                            //button
-                                            dense
-                                            role={undefined}
-                                            //onClick={() => this.onChecked(id)}
-                                        >
-                                            <ListItemText  primary={<span style={{fontSize:'20px'}}>3.) Worked on Material ui framework for building modern designs.</span>} />
-                                        </ListItem>
+                                <List >
+                                    <ListItem
+                                        dense
+                                        role={undefined}
+
+                                    >
+                                        <ListItemText primary={<span style={{ fontSize: '20px' }}>1.) Worked on SACRD project which is a robotic process automation solution for multi-currency,multi-GAAP financial reporting automation and business intelligence. </span>} />
+                                    </ListItem>
+                                    <ListItem
+                                        //className={classes.listItem}
+                                        //key={id}
+                                        //button
+                                        dense
+                                        role={undefined}
+                                    //onClick={() => this.onChecked(id)}
+                                    >
+                                        <ListItemText primary={<span style={{ fontSize: '20px' }}>2.) Built several key components using react.js and integrated api's with redux.</span>} />
+                                    </ListItem>
+                                    <ListItem
+                                        //className={classes.listItem}
+                                        //key={id}
+                                        //button
+                                        dense
+                                        role={undefined}
+                                    //onClick={() => this.onChecked(id)}
+                                    >
+                                        <ListItemText primary={<span style={{ fontSize: '20px' }}>3.) Worked on material-ui framework for building modern designs.</span>} />
+                                    </ListItem>
                                 </List>
- 
+
                             </Grid>
                         </StepContent>
                     </Step>
@@ -104,38 +106,38 @@ const Experience = () => {
                         </StepLabel>
                         <StepContent>
                             <Grid container>
-                            <List style={{fontSize:'20px !important'}}>
-                                        <ListItem
-                                            //className={classes.listItem}
-                                            //key={id}
-                                            //button
-                                            dense
-                                            disableTypography
-                                            role={undefined}
-                                            //onClick={() => this.onChecked(id)}
-                                        >
-                                            <ListItemText style={{fontSize:'20px !important'}} primary={<span style={{fontSize:'20px'}}>1.) Developed a recruitment web application using React.js and Redux. </span>} />
-                                        </ListItem>
-                                        <ListItem
-                                            //className={classes.listItem}
-                                            //key={id}
-                                            //button
-                                            dense
-                                            role={undefined}
-                                            //onClick={() => this.onChecked(id)}
-                                        >
-                                            <ListItemText primary={<span style={{fontSize:'20px'}}>2.) Communicated and worked closely with clients to ensure that their requirements were fully met. </span>} />
-                                        </ListItem>
-                                        <ListItem
-                                            //className={classes.listItem}
-                                            //key={id}
-                                            //button
-                                            dense
-                                            role={undefined}
-                                            //onClick={() => this.onChecked(id)}
-                                        >
-                                            <ListItemText primary={<span style={{fontSize:'20px'}}>3.) Developed website using AGILE methodology. </span>} />
-                                        </ListItem>
+                                <List style={{ fontSize: '20px !important' }}>
+                                    <ListItem
+                                        //className={classes.listItem}
+                                        //key={id}
+                                        //button
+                                        dense
+                                        disableTypography
+                                        role={undefined}
+                                    //onClick={() => this.onChecked(id)}
+                                    >
+                                        <ListItemText style={{ fontSize: '20px !important' }} primary={<span style={{ fontSize: '20px' }}>1.) Developed a recruitment web application using React.js and Redux. </span>} />
+                                    </ListItem>
+                                    <ListItem
+                                        //className={classes.listItem}
+                                        //key={id}
+                                        //button
+                                        dense
+                                        role={undefined}
+                                    //onClick={() => this.onChecked(id)}
+                                    >
+                                        <ListItemText primary={<span style={{ fontSize: '20px' }}>2.) Communicated and worked closely with clients to ensure that their requirements were fully met. </span>} />
+                                    </ListItem>
+                                    <ListItem
+                                        //className={classes.listItem}
+                                        //key={id}
+                                        //button
+                                        dense
+                                        role={undefined}
+                                    //onClick={() => this.onChecked(id)}
+                                    >
+                                        <ListItemText primary={<span style={{ fontSize: '20px' }}>3.) Developed website using AGILE methodology. </span>} />
+                                    </ListItem>
                                 </List>
                             </Grid>
                         </StepContent>

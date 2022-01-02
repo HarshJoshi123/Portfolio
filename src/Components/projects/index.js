@@ -61,7 +61,7 @@ const Projects = () => {
                                 El-Vote
                             </Typography>
                             <Typography  variant="body2" sx={{height:{md:'150px'}}}  color="white">
-                                Made an E-Voting  using Blockchain Technology. NodeJs and ExpressJs were used as backend. Smart contract was designed using solidity. User has to login via facial verification using face-api.js. Vote was recorded using web3.js API.Ganache blockchain was used as the test network.
+                            Made an E-Voting website using blockchain technology and ring signature which records votes securely and protects voter’s anonymity. Smart contract was made using solidity. Users have to login using facial verification made by face-api.js.Backend was built using Node.js and Express.Ganache was used as a test network.
                             </Typography>
                             <Box variant="body2" textAlign={'center'} sx={{marginTop:{xs:'5px',md:'0px'}}} color="white">
                                 <Button variant="contained" style={{ width: '100%', marginTop: '5px' }}>SHOW</Button>
