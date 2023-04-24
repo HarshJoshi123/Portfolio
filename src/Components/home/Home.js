@@ -24,7 +24,7 @@ function Home() {
                             </h3>
                         </div>
                         <div className="home-buttons ml-2 d-flex justify-content-center">
-                            <a href="https://drive.google.com/file/d/1LTPrC-M3YtIGvU-msF9TGGh7cqrGEim4/view?usp=sharing" className="btn primary-btn" rel="noreferrer" target="_blank">
+                            <a href="https://drive.google.com/file/d/14Y49ygRS1jYd3FQG6qaRculHgsjb7wzf/view?usp=drivesdk" className="btn primary-btn" rel="noreferrer" target="_blank">
                                 <button className="btn text-white resume-btn blue ">Get Resume </button>
                             </a>
                         </div>
