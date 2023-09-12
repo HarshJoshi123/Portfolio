@@ -8,7 +8,6 @@ import Soc from './Soc.png'
 import GCA from './GCA2.png'
 import Rec from './GCA.png'
 import ElVote from './Elvote.png'
-import Food from './Food.png'
 import Cov from './Cov.png'
 import YCShop from './YCShop.png'
 import { CardActionArea, Button, Box } from '@mui/material';

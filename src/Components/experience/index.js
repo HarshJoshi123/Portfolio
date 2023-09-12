@@ -32,10 +32,7 @@ const Experience = () => {
                     <ListItemText
                       primary={
                         <span style={{ fontSize: "18px" }}>
-                          1.) Worked on the frontend development of the
-                          company's ecommerce platform, utilizing Next.js and
-                          React.js to create dynamic and responsive user
-                          interfaces.{" "}
+                          1.) Spearheaded the frontend development efforts for our company's flagship e-commerce platform, leveraging the power of Next.js and React.js to craft highly dynamic and impeccably responsive user interfaces.
                         </span>
                       }
                     />
@@ -51,12 +48,12 @@ const Experience = () => {
                     <ListItemText
                       primary={
                         <span style={{ fontSize: "18px" }}>
-                          2.) Contributed to the company's open-source library
-                          and wrote cypress test cases.
+                          2.) My standout achievements were orchestrating a significant reduction in bundle size, an endeavor that saw us trim it down from a bulky 600 KB to a sleek and efficient average of 180 KB for our important pages. Me and my team boosted our Gtmetrix score from  30 to an average of 65 for our  converting pages like Home,PDP and PLP within a month
                         </span>
                       }
                     />
                   </ListItem>
+                 
                   <ListItem
                     //className={classes.listItem}
                     //key={id}
@@ -68,26 +65,7 @@ const Experience = () => {
                     <ListItemText
                       primary={
                         <span style={{ fontSize: "18px" }}>
-                          3.) Helped the team to decrease bundle size from 600
-                          kb to 200 kb.
-                        </span>
-                      }
-                    />
-                  </ListItem>
-                  <ListItem
-                    //className={classes.listItem}
-                    //key={id}
-                    //button
-                    dense
-                    role={undefined}
-                    //onClick={() => this.onChecked(id)}
-                  >
-                    <ListItemText
-                      primary={
-                        <span style={{ fontSize: "18px" }}>
-                          4.)Conducted A/B testing and optimization tasks to
-                          improve the website's conversion rate and user
-                          experience.
+                          3.)I actively engaged in product development tasks and devoted my skills to optimization tasks aimed at elevating our website's conversion rate and overall user experience.
                         </span>
                       }
                     />
@@ -120,7 +98,7 @@ const Experience = () => {
                     <ListItemText
                       primary={
                         <span style={{ fontSize: "18px" }}>
-                          1.) Migrated UI components to Storybook{" "}
+                          1.)Worked in the payments team where I integrated Blipay successfully and led the migration of  Refunds page to Next.js architecture.
                         </span>
                       }
                     />
@@ -136,11 +114,7 @@ const Experience = () => {
                     <ListItemText
                       primary={
                         <span style={{ fontSize: "18px" }}>
-                          2.) Collaborated in migrating our core pages like
-                          hotel and homepage to Next.js architecture which
-                          improved our lighthouse performance score to 90,
-                          decreased average page load speed by 59% and improved
-                          product visit performance by 49% .{" "}
+                          2.) Migrated core pages like hotel and homepage to Next.js architecture which improved our lighthouse performance score to 90, decreased average page load speed by 59% and improved product visit performance by 49% .
                         </span>
                       }
                     />
@@ -192,8 +166,8 @@ const Experience = () => {
                     <ListItemText
                       primary={
                         <span style={{ fontSize: "18px" }}>
-                          2.) Resolved several bugs in these applications making
-                          them failure proof.{" "}
+                          2.) Ensured both applications were bug-free and reliable, improving user satisfaction.
+
                         </span>
                       }
                     />
@@ -209,7 +183,8 @@ const Experience = () => {
                     <ListItemText
                       primary={
                         <span style={{ fontSize: "18px" }}>
-                          3.)Built microservices using Node.js,MongoDB and NATS.{" "}
+                          3.)Contributed to system scalability through microservices architecture implemented using Node.js, MongoDB and NATS.
+
                         </span>
                       }
                     />
