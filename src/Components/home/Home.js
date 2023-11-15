@@ -24,8 +24,11 @@ function Home() {
                             </h3>
                         </div>
                         <div className="home-buttons ml-2 d-flex justify-content-center">
-                            <a href="https://drive.google.com/file/d/1EKSh6W4PLWN-mtI6agrmnwCivataBqGT/view?usp=sharing" className="btn primary-btn" rel="noreferrer" target="_blank">
+                            <a href="https://drive.google.com/file/d/1EIljDM-_ckUUSIWRFwuJZ4SWz5mqRelg/view?usp=sharing" className="btn primary-btn" rel="noreferrer" target="_blank">
                                 <button className="btn text-white resume-btn blue ">Get Resume </button>
+                            </a>
+                            <a href="#projects" className="btn primary-btn" rel="noreferrer" >
+                            <button className="btn text-white resume-btn blue">Go To Projects</button>
                             </a>
                         </div>
                         <div className="col d-flex d-flex justify-content-center">

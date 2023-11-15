@@ -65,7 +65,23 @@ const Experience = () => {
                     <ListItemText
                       primary={
                         <span style={{ fontSize: "18px" }}>
-                          3.)I actively engaged in product development tasks and devoted my skills to optimization tasks aimed at elevating our website's conversion rate and overall user experience.
+                          3.)Integrated 3rd party SDKs like Gokwik, VWO, Google optimise, Google tag manager and Moengage.
+                        </span>
+                      }
+                    />
+                  </ListItem>
+                  <ListItem
+                    //className={classes.listItem}
+                    //key={id}
+                    //button
+                    dense
+                    role={undefined}
+                    //onClick={() => this.onChecked(id)}
+                  >
+                    <ListItemText
+                      primary={
+                        <span style={{ fontSize: "18px" }}>
+                          4.)Product development tasks like goodness-insider loyalty program, PLP as SSR page and GoKwik-address section.
                         </span>
                       }
                     />
@@ -114,11 +130,28 @@ const Experience = () => {
                     <ListItemText
                       primary={
                         <span style={{ fontSize: "18px" }}>
-                          2.) Migrated core pages like hotel and homepage to Next.js architecture which improved our lighthouse performance score to 90, decreased average page load speed by 59% and improved product visit performance by 49% .
+                          2.)Led creation and maintenance of our inhouse UI framework - Tiket Passport made using React.js,Typescript and Storybook.
                         </span>
                       }
                     />
                   </ListItem>
+                  <ListItem
+                    //className={classes.listItem}
+                    //key={id}
+                    //button
+                    dense
+                    role={undefined}
+                    //onClick={() => this.onChecked(id)}
+                  >
+                    <ListItemText
+                      primary={
+                        <span style={{ fontSize: "18px" }}>
+                          3.)Successfully migrated core pages, including hotel and homepage, to Next.js, resulting in a Lighthouse performance score of 90+ , a 59% reduction in average page load speed, and a 49% enhancement in product visit performance.
+                        </span>
+                      }
+                    />
+                  </ListItem>
+
                 </List>
               </Grid>
             </StepContent>
@@ -166,29 +199,15 @@ const Experience = () => {
                     <ListItemText
                       primary={
                         <span style={{ fontSize: "18px" }}>
-                          2.) Ensured both applications were bug-free and reliable, improving user satisfaction.
+                          2.) Product development tasks like implementing factors data page for seed data, dashboard page for podcast application,
+engineering an audio packet data visualization tool and designing a messaging system using NATS event bus and Sendgrid.
+
 
                         </span>
                       }
                     />
                   </ListItem>
-                  <ListItem
-                    //className={classes.listItem}
-                    //key={id}
-                    //button
-                    dense
-                    role={undefined}
-                    //onClick={() => this.onChecked(id)}
-                  >
-                    <ListItemText
-                      primary={
-                        <span style={{ fontSize: "18px" }}>
-                          3.)Contributed to system scalability through microservices architecture implemented using Node.js, MongoDB and NATS.
-
-                        </span>
-                      }
-                    />
-                  </ListItem>
+                  
                 </List>
               </Grid>
             </StepContent>

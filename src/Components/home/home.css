@@ -28,3 +28,8 @@
     font-size:40px;
     letter-spacing:4px;
 }
+.home-buttons{
+    @media only screen and (max-width: 600px) {
+        flex-direction:column;
+    }
+}
