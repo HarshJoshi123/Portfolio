@@ -19,9 +19,9 @@ const Experience = () => {
           <Step key={1} active={true}>
             <StepLabel>
               <div style={{ color: "white" }}>
-                <h3>Frontend Developer </h3>{" "}
+                <h3>Software Developer </h3>{" "}
                 <span style={{ marginLeft: "20px" }}>
-                  Mamaearth ( Jan 2023 - Present )
+                  StatusNeo Consulting( Mar 2024 - Present )
                 </span>
               </div>
             </StepLabel>
@@ -32,7 +32,10 @@ const Experience = () => {
                     <ListItemText
                       primary={
                         <span style={{ fontSize: "18px" }}>
-                          1.) Spearheaded the frontend development efforts for our company's flagship e-commerce platform, leveraging the power of Next.js and React.js to craft highly dynamic and impeccably responsive user interfaces.
+                          1.) Developed and maintained web applications to
+                          analyze employee data and productivity metrics using
+                          React.js, Redux, TypeScript, Material UI and Visx
+                          chart library
                         </span>
                       }
                     />
@@ -48,12 +51,44 @@ const Experience = () => {
                     <ListItemText
                       primary={
                         <span style={{ fontSize: "18px" }}>
-                          2.) My standout achievements were orchestrating a significant reduction in bundle size, an endeavor that saw us trim it down from a bulky 600 KB to a sleek and efficient average of 180 KB for our important pages. Me and my team boosted our Gtmetrix score from  30 to an average of 65 for our  converting pages like Home,PDP and PLP within a month
+                          2.) Enhanced productivity analysis tools with
+                          integrated filters, charts using Visx and integrated
+                          microservices using Node.js and Neo4J to automate the
+                          generation of PPT reports allowing for more precise
+                          analysis of employee metrics and contributing to more
+                          informed decision-making processes.
                         </span>
                       }
                     />
                   </ListItem>
-                 
+                </List>
+              </Grid>
+            </StepContent>
+          </Step>
+          <Step key={1} active={true}>
+            <StepLabel>
+              <div style={{ color: "white" }}>
+                <h3>Frontend Developer </h3>{" "}
+                <span style={{ marginLeft: "20px" }}>
+                  Mamaearth ( Jan 2023 - Mar 2024 )
+                </span>
+              </div>
+            </StepLabel>
+            <StepContent>
+              <Grid container>
+                <List>
+                  <ListItem dense role={undefined}>
+                    <ListItemText
+                      primary={
+                        <span style={{ fontSize: "18px" }}>
+                          1.) Spearheaded the frontend development efforts for
+                          our company's flagship e-commerce platform, leveraging
+                          the power of Next.js and React.js to craft highly
+                          dynamic and impeccably responsive user interfaces.
+                        </span>
+                      }
+                    />
+                  </ListItem>
                   <ListItem
                     //className={classes.listItem}
                     //key={id}
@@ -65,7 +100,31 @@ const Experience = () => {
                     <ListItemText
                       primary={
                         <span style={{ fontSize: "18px" }}>
-                          3.)Integrated 3rd party SDKs like Gokwik, VWO, Google optimise, Google tag manager and Moengage.
+                          2.) My standout achievements were orchestrating a
+                          significant reduction in bundle size, an endeavor that
+                          saw us trim it down from a bulky 600 KB to a sleek and
+                          efficient average of 180 KB for our important pages.
+                          Me and my team boosted our Gtmetrix score from 30 to
+                          an average of 65 for our converting pages like
+                          Home,PDP and PLP within a month
+                        </span>
+                      }
+                    />
+                  </ListItem>
+
+                  <ListItem
+                    //className={classes.listItem}
+                    //key={id}
+                    //button
+                    dense
+                    role={undefined}
+                    //onClick={() => this.onChecked(id)}
+                  >
+                    <ListItemText
+                      primary={
+                        <span style={{ fontSize: "18px" }}>
+                          3.)Integrated 3rd party SDKs like Gokwik, VWO, Google
+                          optimise, Google tag manager and Moengage.
                         </span>
                       }
                     />
@@ -81,7 +140,9 @@ const Experience = () => {
                     <ListItemText
                       primary={
                         <span style={{ fontSize: "18px" }}>
-                          4.)Product development tasks like goodness-insider loyalty program, PLP as SSR page and GoKwik-address section.
+                          4.)Product development tasks like goodness-insider
+                          loyalty program, PLP as SSR page and GoKwik-address
+                          section.
                         </span>
                       }
                     />
@@ -114,7 +175,9 @@ const Experience = () => {
                     <ListItemText
                       primary={
                         <span style={{ fontSize: "18px" }}>
-                          1.)Worked in the payments team where I integrated Blipay successfully and led the migration of  Refunds page to Next.js architecture.
+                          1.)Worked in the payments team where I integrated
+                          Blipay successfully and led the migration of Refunds
+                          page to Next.js architecture.
                         </span>
                       }
                     />
@@ -130,7 +193,9 @@ const Experience = () => {
                     <ListItemText
                       primary={
                         <span style={{ fontSize: "18px" }}>
-                          2.)Led creation and maintenance of our inhouse UI framework - Tiket Passport made using React.js,Typescript and Storybook.
+                          2.)Led creation and maintenance of our inhouse UI
+                          framework - Tiket Passport made using
+                          React.js,Typescript and Storybook.
                         </span>
                       }
                     />
@@ -146,12 +211,15 @@ const Experience = () => {
                     <ListItemText
                       primary={
                         <span style={{ fontSize: "18px" }}>
-                          3.)Successfully migrated core pages, including hotel and homepage, to Next.js, resulting in a Lighthouse performance score of 90+ , a 59% reduction in average page load speed, and a 49% enhancement in product visit performance.
+                          3.)Successfully migrated core pages, including hotel
+                          and homepage, to Next.js, resulting in a Lighthouse
+                          performance score of 90+ , a 59% reduction in average
+                          page load speed, and a 49% enhancement in product
+                          visit performance.
                         </span>
                       }
                     />
                   </ListItem>
-
                 </List>
               </Grid>
             </StepContent>
@@ -199,15 +267,15 @@ const Experience = () => {
                     <ListItemText
                       primary={
                         <span style={{ fontSize: "18px" }}>
-                          2.) Product development tasks like implementing factors data page for seed data, dashboard page for podcast application,
-engineering an audio packet data visualization tool and designing a messaging system using NATS event bus and Sendgrid.
-
-
+                          2.) Product development tasks like implementing
+                          factors data page for seed data, dashboard page for
+                          podcast application, engineering an audio packet data
+                          visualization tool and designing a messaging system
+                          using NATS event bus and Sendgrid.
                         </span>
                       }
                     />
                   </ListItem>
-                  
                 </List>
               </Grid>
             </StepContent>
